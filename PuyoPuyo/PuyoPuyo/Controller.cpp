@@ -144,11 +144,11 @@ void Controller::handleCPUPieces(){
 void Controller::flow(){
 	
 	handlePlayerPieces();
-	handleCPUPieces();
+	
 	setPieces(cp1.getX(),cp1.getY(),cp1.getColor());
-	setPieces(cp2.getX(),cp2.getY(),cp2.getColor());
+	
 	setPieces(p1.getX(),p1.getY(),p1.getColor());
-	setPieces(p2.getX(),p2.getY(),p2.getColor());
+	
 	board.setBoard(pieces);
 	//render board
 	board.render();

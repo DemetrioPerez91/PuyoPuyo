@@ -52,7 +52,7 @@ bool init(){
                 }
                 bgm = Mix_LoadMUS(JTHEME);
                 Mix_VolumeMusic(MIX_MAX_VOLUME/4);
-                
+            
             }
             
         }
@@ -115,7 +115,7 @@ int main( int argc, char* args[] )
     }
     
     
-    //Mix_PlayMusic(bgm,-1);
+    Mix_PlayMusic(bgm,-1);
     Controller controller = Controller(screen,window);
     while(!quit){
         if(pause){
@@ -175,7 +175,6 @@ int main( int argc, char* args[] )
                             controller.changeColors(xCoord,yCoord);
                         }
                         
-                        
                     }
                     
                 }
@@ -183,8 +182,6 @@ int main( int argc, char* args[] )
                 
             }
         }
-        
-        
         
     }  
     close();

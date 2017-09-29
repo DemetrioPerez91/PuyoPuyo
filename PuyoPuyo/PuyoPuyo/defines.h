@@ -2,14 +2,14 @@
 #define DEFINES_H_INCLUDED
 
 //import SDL Librraries
-#include <SDL.h>
-#include <SDL_image.h>
-#include<SDL_test.h>
-#include<SDL_timer.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_test.h>
+#include <SDL2/SDL_timer.h>
 #include <stdio.h>
 #include <string>
-#include <SDL_mixer.h>
-#include <SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
+#include <SDL2/SDL_ttf.h>
 
 //Windows dimensions
 #define SCREEN_H 800

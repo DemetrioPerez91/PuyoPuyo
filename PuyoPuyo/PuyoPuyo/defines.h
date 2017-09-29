@@ -31,16 +31,16 @@
 #define BOARDY 12
 
 //URLS of thefiles used in the game
-#define BLEACH "img\\bleach.ttf"
-#define JTHEME "img\\jtheme.mp3"
+#define BLEACH "img/bleach.ttf"
+#define JTHEME "img/jtheme.mp3"
 //#define BG "img\\bg.png"
-#define BG "img\\bgDouble.png"
-#define GREEN "img\\green.png"
-#define BLUE "img\\blue.png"
-#define RED "img\\red.png"
-#define YELLOW "img\\yellow.png"
-#define GO "img\\GameOver.png"
-#define PAUSE "img\\pause.png"
+#define BG "img/bgDouble.png"
+#define GREEN "img/green.png"
+#define BLUE "img/blue.png"
+#define RED "img/red.png"
+#define YELLOW "img/yellow.png"
+#define GO "img/GameOver.png"
+#define PAUSE "img/pause.png"
 
 
 

@@ -180,7 +180,7 @@
 		CE1B2DDE1F7EDD15007A91B3 /* PuyoPuyo */ = {
 			isa = PBXGroup;
 			children = (
-				CE1B2E5C1F7EE5D0007A91B3 /* img */,
+				CE1B2E5C1F7EE5D0007A91B3 /* Resources */,
 				CE1B2E4B1F7EDDEA007A91B3 /* defines.h */,
 				CE1B2DDF1F7EDD15007A91B3 /* main.cpp */,
 				CE1B2E4E1F7EE0D7007A91B3 /* Controller.h */,
@@ -385,27 +385,44 @@
 			path = aclocal;
 			sourceTree = "<group>";
 		};
-		CE1B2E5C1F7EE5D0007A91B3 /* img */ = {
+		CE1B2E5C1F7EE5D0007A91B3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE1B2E6E1F7EE9BF007A91B3 /* Audio */,
+				CE1B2E6D1F7EE98A007A91B3 /* IMG */,
+			);
+			name = Resources;
+			path = img;
+			sourceTree = "<group>";
+		};
+		CE1B2E6D1F7EE98A007A91B3 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2E6B1F7EE5D0007A91B3 /* test.png */,
+				CE1B2E6C1F7EE5D0007A91B3 /* yellow.png */,
+				CE1B2E671F7EE5D0007A91B3 /* new.png */,
+				CE1B2E681F7EE5D0007A91B3 /* pause.png */,
+				CE1B2E691F7EE5D0007A91B3 /* red.png */,
+				CE1B2E641F7EE5D0007A91B3 /* GameOver.png */,
+				CE1B2E651F7EE5D0007A91B3 /* green.png */,
 				CE1B2E5D1F7EE5D0007A91B3 /* abstract-orange_00396472.jpg */,
 				CE1B2E5E1F7EE5D0007A91B3 /* bg.png */,
 				CE1B2E5F1F7EE5D0007A91B3 /* bgDouble.png */,
 				CE1B2E601F7EE5D0007A91B3 /* bleach.ttf */,
 				CE1B2E611F7EE5D0007A91B3 /* blue.png */,
 				CE1B2E621F7EE5D0007A91B3 /* board.png */,
-				CE1B2E631F7EE5D0007A91B3 /* fall.wav */,
-				CE1B2E641F7EE5D0007A91B3 /* GameOver.png */,
-				CE1B2E651F7EE5D0007A91B3 /* green.png */,
-				CE1B2E661F7EE5D0007A91B3 /* jtheme.mp3 */,
-				CE1B2E671F7EE5D0007A91B3 /* new.png */,
-				CE1B2E681F7EE5D0007A91B3 /* pause.png */,
-				CE1B2E691F7EE5D0007A91B3 /* red.png */,
-				CE1B2E6A1F7EE5D0007A91B3 /* score.wav */,
-				CE1B2E6B1F7EE5D0007A91B3 /* test.png */,
-				CE1B2E6C1F7EE5D0007A91B3 /* yellow.png */,
 			);
-			path = img;
+			name = IMG;
+			sourceTree = "<group>";
+		};
+		CE1B2E6E1F7EE9BF007A91B3 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2E631F7EE5D0007A91B3 /* fall.wav */,
+				CE1B2E661F7EE5D0007A91B3 /* jtheme.mp3 */,
+				CE1B2E6A1F7EE5D0007A91B3 /* score.wav */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -2,7 +2,7 @@
 A small PuyoPuyo look-alike game  
 
 To run this program on your mac you will need XCode, and 
-install SDL2 and sdl2_image To install SDL2 and SDL2_image
+install SDL2 and sdl2_image To install SDL2 SDL2_image, and
 SDL2_TTF you can use homebrew to download those through the 
 terminal In short you need to follow these steps:
 

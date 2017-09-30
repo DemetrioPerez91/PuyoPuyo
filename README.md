@@ -1,5 +1,6 @@
 # PuyoPuyo
-A small PuyoPuyo look-alike game  
+A small PuyoPuyo look-alike game this is a port from a game I built in 
+visual studio a while back
 
 To run this program on your mac you will need XCode, and 
 install SDL2 and sdl2_image To install SDL2 SDL2_image, and
